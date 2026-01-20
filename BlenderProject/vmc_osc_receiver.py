@@ -38,7 +38,8 @@ class VMC_OT_StartReceiver(bpy.types.Operator):
             if cam:
                 d = self._data
                 # Unity(LHS) -> Blender(RHS)
-                cam.location = (d[0], -d[2], d[1])
+                # Unity Z (Forward) -> Blender Y (Forward tested with 90deg offset)
+                cam.location = (d[0], d[2], d[1])
                 
                 # Quat Sync
                 import mathutils
