@@ -58,7 +58,8 @@ class VMC_OT_StartReceiver(bpy.types.Operator):
                 # Construct final rotation (Mapping might need adjustment based on behavior)
                 # We apply the raw rotation then the 90 deg offset to "stand" the camera up
                 cam.rotation_mode = 'QUATERNION'
-                raw_q = mathutils.Quaternion((d[3], d[4], -d[6], d[5])) 
+                # Invert Unity Y (Blender Z) to fix the reversed vertical axis rotation
+                raw_q = mathutils.Quaternion((d[3], d[4], -d[6], -d[5])) 
                 cam.rotation_quaternion = raw_q @ offset_rot
 
         return {'PASS_THROUGH'}
