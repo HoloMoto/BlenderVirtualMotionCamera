@@ -1,0 +1,47 @@
+# This .gitignore file should be placed at the root of your Unity project.
+#
+# Custom ignore rules
+/[Bb]uild/
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+
+# Visual Studio / Visual Studio Code
+.vs/
+.vscode/
+*.csproj
+*.sln
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svclog
+*.pdb
+*.opendb
+*.VC.db
+
+# Unity generated
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ibrary/
+sysinfo.txt
+*.apk
+*.unitypackage
+*.bundle
+
+# MacOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# OS generated files
+Icon?
+Thumbs.db
+ehthumbs.db
+desktop.ini
