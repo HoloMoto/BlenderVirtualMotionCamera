@@ -864,7 +864,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d7c25c495003914da50e87f4fd51d62, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BlenderVirtualMotionCamera.OscSender
-  ipAddress: 127.0.0.1
+  ipAddress: 100.110.227.91
   port: 8000
 --- !u!1 &828945575
 GameObject:
@@ -1863,7 +1863,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -1004.26, y: 457.91}
+  m_AnchoredPosition: {x: 0, y: 322.3}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1962397638

@@ -5,11 +5,15 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 1
+    path: Assets/Scenes/iPhoneScene.unity
+    guid: ecee24067bd0aeb4a8c23addaa7e36f1
   m_configObjects:
     UnityEditor.XR.ARKit.ARKitSettings: {fileID: 11400000, guid: 8866f56dcd01713488f32fecce2743d7, type: 2}
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
     com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: 499cdd19ee12150469f9125c079385ea, type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 76986da10f7b241b6bba9b220d355c6e, type: 2}
   m_UseUCBPForAssetBundles: 0
